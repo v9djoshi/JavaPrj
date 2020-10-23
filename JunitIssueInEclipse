@@ -1,0 +1,13 @@
+steps to remove classnotfoundexception while using junit in eclipse even when your .class is available.
+
+-->
+so it is a problem with the classpath that you need to set in run configuration of junit.
+
+--> 
+in classpath tab ---> User Entries --> click on advannced tab---> add folders -->then select the classes folder in the module where your testclass available.
+
+--> apply and run ...do same if getting error for another class file.
+
+
+Note: Follow same process while using PIT, if you are getting zero or full mutation coverage without any report.
+
